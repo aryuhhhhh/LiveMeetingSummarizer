@@ -113,13 +113,13 @@ if "summary" not in st.session_state:
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.title("⚙️ Settings")
+    st.title(" Settings")
     
     groq_key = st.text_input("Groq API Key", type="password", placeholder="gsk_...")
     
     st.divider()
     
-    st.subheader("📧 Email Reports")
+    st.subheader(" Email Reports")
     with st.expander("Configure Email Details"):
         email_user = st.text_input("Gmail Address")
         email_pass = st.text_input("App Password", type="password", help="Use a Google App Password.")
