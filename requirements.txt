@@ -1,0 +1,10 @@
+streamlit
+vosk
+sounddevice
+numpy
+scipy
+groq
+python-dotenv
+fpdf
+requests
+tqdm
